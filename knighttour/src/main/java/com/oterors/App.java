@@ -21,7 +21,6 @@ public class App
 */
         Board b = new Board(8);
         System.out.println("Resultado passeio 8 x 8: " + b.knightTour(0, 0));
-        System.out.println("Max filled: " + b.getMaxFilled());
       
         int[][] maxBoard = b.getMaxBoard();
         for (int i = 7; i >= 0; i--) {
